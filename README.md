@@ -19,6 +19,12 @@
 
 <p>A classe <i>Conta.java</i> implementa a lógica de testes dos cenários criados. Nela, está presente a variável booleana <i>Especial</i>, sendo que, caso o cliente seja especial, a variável é declarada como verdadeira (true), e caso seja um cliente comum, a variável é declarada como falsa (false).</p>
 
-<p>No primeiro teste realizado, o método <i>um_cliente_especial_com_saldo_atual_de_reais(int saldo)</i>, presente no <i>Given</i> do primeiro cenário, recebe o valor de saldo inicial e de saque solicitado, e realiza o saque caso verifique que o cliente é Especial. No console, observa-se que os três testes do cliente especial (primeiro cenário) são bem sucedidos, enquanto que os testes do cliente comum (segundo cenário) não são executados, pois identificam que a variável <i>Especial</i> é verdadeira:</p>
+<p>No primeiro teste realizado, o método <i>um_cliente_especial_com_saldo_atual_de_reais(int saldo)</i>, presente no <i>Given</i> do primeiro cenário, recebe o valor de saldo inicial, e o método <i>deve_efutuar_o_saque_e_atualizar_o_saldo_da_conta_para_reais(int saque)</i> recebe o valor do saque solicitado e realiza o saque caso verifique que o cliente é Especial. No console, observa-se que os três testes do cliente especial (primeiro cenário) são bem sucedidos, enquanto que os testes do cliente comum (segundo cenário) não são executados, pois identificam que a variável <i>Especial</i> é verdadeira:</p>
 
 ![image](https://user-images.githubusercontent.com/79616452/202821118-73a67a55-c332-4f34-baa1-33ff717479f5.png)
+
+![image](https://user-images.githubusercontent.com/79616452/202822128-5abaf6d2-67aa-4008-8a04-34c232aaed4b.png)
+
+<p>No segundo teste, o método <i>um_cliente_comum_com_saldo_atual_de_reais(int saldo)</i>,presente no <i>Given</i> do segundo cenário, recebe o valor de saldo inicial, e o método <i>não_deve_efutuar_o_saque_e_deve_retornar_a_mensagem_Saldo_Insuficiente()</i> recebe o valor do saque solicitado e realiza o saque caso verifique que o cliente é Comum e que o saldo é superior a 0 e ao saque solicitado. Caso o saldo seja inferior, o console retorna uma mensagem de "saldo insuficiente":</p>
+
+![image](https://user-images.githubusercontent.com/79616452/202822682-c6a4cb79-902c-4b35-bea6-32f1c0c452b2.png)

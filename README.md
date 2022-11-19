@@ -29,7 +29,7 @@
 
 ![image](https://user-images.githubusercontent.com/79616452/202822682-c6a4cb79-902c-4b35-bea6-32f1c0c452b2.png)
 
-<pNesse caso, o primeiro cenário de testes não é executado, pois o método <i>um_cliente_especial_com_saldo_atual_de_reais(int saldo)</i> identfica a variável <i>Especial</i> como falsa, e todos os testes do segundo cenário são executados:</p>
+<p>Nesse caso, o primeiro cenário de testes não é executado, pois o método <i>um_cliente_especial_com_saldo_atual_de_reais(int saldo)</i> identfica a variável <i>Especial</i> como falsa, e todos os testes do segundo cenário são executados:</p>
 
 ![image](https://user-images.githubusercontent.com/79616452/202822818-4e345e7f-ee68-4c7a-aca4-5d4a41a9a26e.png)
 

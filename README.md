@@ -28,3 +28,8 @@
 <p>No segundo teste, o método <i>um_cliente_comum_com_saldo_atual_de_reais(int saldo)</i>,presente no <i>Given</i> do segundo cenário, recebe o valor de saldo inicial, e o método <i>não_deve_efutuar_o_saque_e_deve_retornar_a_mensagem_Saldo_Insuficiente()</i> recebe o valor do saque solicitado e realiza o saque caso verifique que o cliente é Comum e que o saldo é superior a 0 e ao saque solicitado. Caso o saldo seja inferior, o console retorna uma mensagem de "saldo insuficiente":</p>
 
 ![image](https://user-images.githubusercontent.com/79616452/202822682-c6a4cb79-902c-4b35-bea6-32f1c0c452b2.png)
+
+<pNesse caso, o primeiro cenário de testes não é executado, pois o método <i>public void um_cliente_especial_com_saldo_atual_de_reais(int saldo)</i> identfica a variável <i>Especial</i> como falsa, e todos os testes do segundo cenário são executados:</p>
+
+![image](https://user-images.githubusercontent.com/79616452/202822818-4e345e7f-ee68-4c7a-aca4-5d4a41a9a26e.png)
+
